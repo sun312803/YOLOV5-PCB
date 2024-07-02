@@ -1,0 +1,13 @@
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+nc: 6
+names: ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
+
+roboflow:
+  workspace: wuhan-oehaw
+  project: beijingdaxuepcb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wuhan-oehaw/beijingdaxuepcb/dataset/1
